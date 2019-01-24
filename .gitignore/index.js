@@ -56,6 +56,16 @@ bot.on('message', message => {
             .addField("*info", "Permet d'avoir des informations du serveur Kamiya RP", false)
         message.channel.sendEmbed(embed);
     }
+    
+        if (message.content === prefix + "test")
+    {
+        var embed = new Discord.RichEmbed()
+            .setTitle("test")
+            .setColor("0x00CBFD")
+
+            .addField("*tuto", "test", false)
+        message.channel.sendEmbed(embed);
+    }
 
 
 })
