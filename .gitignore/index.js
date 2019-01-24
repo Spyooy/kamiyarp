@@ -6,7 +6,7 @@ bot.on('ready', function (){
     console.log("Kamiya RP");
 })
 
-bot.login('NTM3OTEzOTc5Mzg1Njc1Nzc2.DysMKw.bn0DhTmhQoIlE3LTaeZY1MG5A90');
+bot.login('NTM3OTEzOTc5Mzg1Njc1Nzc2.Dytiww.mkv-OGzGZeYt14sYi3yZrFSA_HA');
 
 bot.on('message', message => {
     if (message.content === prefix + "tuto")
